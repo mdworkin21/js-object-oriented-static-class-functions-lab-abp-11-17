@@ -3,7 +3,7 @@
 class Question{
 
   static All(){
-      return this.All
+      return this._All
   }
 
   }
