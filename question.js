@@ -2,4 +2,7 @@
 
 class Question{
 
+  strict All(){
+    return 
+  }
 }
