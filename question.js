@@ -22,4 +22,4 @@ class Question{
 
 Question._All = []
 
-question = new Question ()
+
