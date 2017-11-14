@@ -2,7 +2,7 @@
 
 class Question{
 
-  constructor(content, id){
+  constructor(content, ID){
     this.content = content
     this.ID = ID
     this.save()
