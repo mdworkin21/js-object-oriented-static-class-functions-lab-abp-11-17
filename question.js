@@ -2,8 +2,9 @@
 
 class Question{
 
-  constructor(content){
+  constructor(content, id){
     this.content = content
+    this.id = id
     this.save()
   }
 
@@ -11,17 +12,17 @@ class Question{
   save(){
     this.constructor._All.push(this)
   }
-  
+
   static All(){
       return this._All
   }
 
-  /*Find(){
+  Find(){
     return this.All().filter(function(question){
       return Question.id === id
 
     })
-  }*/
+  }
 
 
   }
