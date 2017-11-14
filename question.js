@@ -16,10 +16,13 @@ class Question{
       return this._All
   }
 
+  find(){
+    return this.All.filter(function(question){
+      
+    })
+  }
 
 
   }
 
 Question._All = []
-
-
