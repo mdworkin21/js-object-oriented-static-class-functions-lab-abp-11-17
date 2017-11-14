@@ -2,8 +2,8 @@
 
 class Question{
 
-  constructor(question, id){
-    this.question = question
+  constructor(content{
+    this.content = question
     this.id = id
     this.save()
   }
