@@ -17,8 +17,8 @@ class Question{
   }
 
   find(){
-    return this.All.filter(function(question){
-      
+    return this.All().filter(function(question){
+
     })
   }
 
