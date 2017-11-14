@@ -18,6 +18,7 @@ class Question{
 
   find(){
     return this.All().filter(function(question){
+      return Question.id === id
 
     })
   }
