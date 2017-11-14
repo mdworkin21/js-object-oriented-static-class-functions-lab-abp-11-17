@@ -2,9 +2,9 @@
 
 class Question{
 
-  constructor(content, ID){
+  constructor(content, id){
     this.content = content
-    this.ID = ID
+    this.id = id
     this.save()
   }
 
@@ -17,9 +17,9 @@ class Question{
       return this._All
   }
 
-  Find(ID){
+  Find(id){
     return this.All().filter(function(question){
-      return question.ID === ID
+      return question.id === id
 
     })
   }
