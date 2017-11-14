@@ -3,6 +3,6 @@
 class Question{
 
   strict All(){
-    return 
+    return this._All
   }
 }
