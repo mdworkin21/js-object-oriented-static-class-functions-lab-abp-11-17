@@ -3,7 +3,7 @@
 class Question{
 
   constructor(content{
-    this.content = question
+    this.content = content
     this.id = id
     this.save()
   }
