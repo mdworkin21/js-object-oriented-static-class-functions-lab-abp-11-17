@@ -2,8 +2,9 @@
 
 class Question{
 
-  constructor(question){
+  constructor(question, id){
     this.question = question
+    this.id = id
     this.save()
   }
 
@@ -15,7 +16,7 @@ class Question{
       return this._All
   }
 
-  
+
 
   }
 
