@@ -2,9 +2,8 @@
 
 class Question{
 
-  constructor(content{
+  constructor(content){
     this.content = content
-    
     this.save()
   }
 
@@ -12,6 +11,7 @@ class Question{
   save(){
     this.constructor._All.push(this)
   }
+  
   static All(){
       return this._All
   }
