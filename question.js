@@ -3,7 +3,7 @@
 class Question{
 
   constructor(){
-    Question.All.push(this)
+    Question._All.push(this)
   }
 
   static All(){
